@@ -1,2 +1,2 @@
-# itto-inc default vagrantfile
+# PHP7 default vagrantfile
 
