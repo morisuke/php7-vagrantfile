@@ -10,7 +10,7 @@ Vagrant.configure(2) do |config|
   config.vm.network "private_network", ip: "192.168.33.115"
   config.vm.network "public_network"
 
-  config.vm.synced_folder "src/", "/vagrant"
+  config.vm.synced_folder "src/", "/vagrant", create: true
 
   # Virtual Box Settings
   config.vm.provider "virtualbox" do |vb|
